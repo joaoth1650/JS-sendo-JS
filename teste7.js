@@ -1,30 +1,36 @@
 function staircase(n) {
   // Write your code here
+    let simbolo ='_';
+    let espacolinha = '';
+    let posicao = n - 1;
 
-  for (let index = 1; index <= n.length; index++){
-      let linha = ''
-  for (let under = 1; under <= n.length; under++){
-    if (under <= n - index){
-      linha += ' '
-    } 
-    else {
-      linha += '*'
+    for (let indexlinha = 0; indexlinha < n; indexlinha += 1) {
+      for (let indexcoluna = 0; indexcoluna < n; indexcoluna += 1){
+         if (indexcoluna < posicao){
+          espacolinha += '#';
+         } 
+         else {
+          espacolinha += simbolo;
+         }
+      } 
+      console.log(espacolinha);
+      espacolinha = '';
+      posicao -= 1; 
     }
-    }
-  }
-   console.log(a);
 }
+ staircase(3)
 
 
 
-// for (let i = 1; i <= n; i++) {
-//   let row = '';
-//   for (let j = 1; j <= n; j++) {
-//     if (j <= n - i) {
-//       row += ' ';
-//     } else {
-//       row += '*';
-//     }
-//   }
-//   console.log(row);
-// }
+  //     let linha = ''
+  // for (let index = 0; index <= n; index++){
+  // for (let under = 0; under <= n; under++){
+  //   if (under <= n - index){
+  //     linha += ' '
+  //   } 
+  //   else {
+  //     linha += '*'
+  //   }
+  //   }
+  // }
+  //  console.log(linha);
