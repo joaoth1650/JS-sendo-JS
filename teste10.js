@@ -1,17 +1,13 @@
 function timeConversion(s) {
   // Write your code here
+  let horas = s[0]
+  let minutos = s[1]
+  let segundos = s[2]
 
-  s.split('')
-
- for (let index = 0; index < s.length; ++index) {
-  if (s[0] = 0) {
-     s[0] = 1
-     console.log(s)
-  } else {
-
-  }
- }
-  return 
+   if (segundos == 3) {
+      horas += 12
+   }
+   console.log(horas, minutos, segundos)
 }
- console.log(timeConversion('04:40:03PM'))
+ console.log(timeConversion([04,40,03]))
  // 16:40:03
