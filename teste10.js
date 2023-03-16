@@ -10,4 +10,6 @@ function timeConversion(s) {
    console.log(horas, minutos, segundos)
 }
  console.log(timeConversion([04,40,03]))
- // 16:40:03
+ // 16:40:03adsadasdsd
+
+ okok
