@@ -1,6 +1,6 @@
 function timeConversion(s) {
   // Write your code here
-   
+   relaxa 
 }
  console.log('final',timeConversion('04:40:33AM'))
  console.log('final',timeConversion('04:40:33PM'))
