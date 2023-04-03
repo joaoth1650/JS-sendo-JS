@@ -1,6 +1,6 @@
 // Manipulando elementos 
 // atributos 
-//lembrar do arquivo ATRIBUTOS.js que fizemos
+// rever sobre atributos
 
 const header = document.querySelector('header') // adicionar atributo
 header.setAttribute('id', 'header')
